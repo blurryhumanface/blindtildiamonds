@@ -23,7 +23,7 @@ public class BlindingCommand implements CommandExecutor{
 		Player p = (Player) sender;
 		
 		if (sender instanceof Player) {
-			p.addPotionEffect(new PotionEffect(PotionEffectType.BLINDNESS, 1000000, 255));
+			p.addPotionEffect(new PotionEffect(PotionEffectType.BLINDNESS, 1000000, 255, true));
 		}
 		else {
 			sender.sendMessage("Why are you trying to do this? Don't do this");
