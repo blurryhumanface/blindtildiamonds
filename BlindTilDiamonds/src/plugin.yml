@@ -1,0 +1,10 @@
+name: blindtildiamonds
+version: 1.0
+api-version: 1.16
+author: Sen_taan
+main: me.Sentaan.BlindTilDiamonds.Main
+description: A Minecraft Plugin that blinds the player until they find diamonds
+
+commands:
+  blind:
+    description: blinds the player until they find diamonds
